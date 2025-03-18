@@ -14,6 +14,17 @@ This project simulates a **real-time fraud detection pipeline** using Kafka's **
 - **Fraud Detector** (Consumer + Producer)
 - **Kafka Topics** for Legitimate and Fraudulent Transactions
 
+### Screenshots
+
+### Transactions Generated
+![Transactions Generated Output](./2.png)
+
+### Legit Transactions
+![Legit Transactions Output](./3.png)
+
+### Fraud Transactions
+![Fraud Transactions Output](./4.png)
+
 ---
 
 ## Getting Started
@@ -32,15 +43,6 @@ Ensure you have the following installed:
 git clone https://github.com/your-github/kafka-fraud-detection.git
 cd kafka-fraud-detection
 
-## Screenshots
 
-### Transactions Generated
-![Transactions Generated Output](./2.png)
-
-### Legit Transactions
-![Legit Transactions Output](./3.png)
-
-### Fraud Transactions
-![Fraud Transactions Output](./4.png)
 
 
