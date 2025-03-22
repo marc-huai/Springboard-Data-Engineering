@@ -8,11 +8,22 @@ A real-time fraud detection system built with **Apache Kafka** and **Python**. I
 
 This project simulates a **real-time fraud detection pipeline** using Kafka's **producer-consumer** model. A **Transaction Generator** continuously creates random transactions, which are then processed by the **Fraud Detector**. Transactions exceeding a threshold (e.g., **$900**) are flagged as fraudulent and stored in a dedicated Kafka topic.
 
-📌 **Key Features**:
+**Key Features**:
 - **Kafka Cluster** (Zookeeper & Broker)
 - **Transaction Generator** (Producer)
 - **Fraud Detector** (Consumer + Producer)
 - **Kafka Topics** for Legitimate and Fraudulent Transactions
+
+### Screenshots
+
+### Transactions Generated
+![Transactions Generated Output](./2.png)
+
+### Legit Transactions
+![Legit Transactions Output](./3.png)
+
+### Fraud Transactions
+![Fraud Transactions Output](./4.png)
 
 ---
 
@@ -32,15 +43,6 @@ Ensure you have the following installed:
 git clone https://github.com/your-github/kafka-fraud-detection.git
 cd kafka-fraud-detection
 
-## Screenshots
 
-### Transactions Generated
-![Transactions Generated Output](./2.png)
-
-### Legit Transactions
-![Legit Transactions Output](./3.png)
-
-### Fraud Transactions
-![Fraud Transactions Output](./4.png)
 
 
