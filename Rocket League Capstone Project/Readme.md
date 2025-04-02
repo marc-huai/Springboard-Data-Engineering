@@ -64,16 +64,14 @@ The Rocket League Data Pipeline Capstone Project is designed to analyze Rocket L
 ---
 
 ### Entity-Relationship Diagram
-```md
-![ERD Diagram](images/rocketleague-erd.png))
-```
+
+![ERD Diagram](images/azure-architecture.png)
 
 ---
 
 ### Azure Architecture Diagram
-```
-![Architecture Diagram](images/azure-architecture.png)
-```
+
+![Architecture Diagram](images/rocketleague-erd.png)
 
 ---
 
